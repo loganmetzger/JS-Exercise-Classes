@@ -172,7 +172,11 @@ class Student extends Lambdasian{
   }
 
   PRAssignments(subject){
-    
+    return `${Student.name} has submitted a PR for t${subject}`;
+  }
+
+  sprintChallenge(){
+    return ``
   }
 }
 
